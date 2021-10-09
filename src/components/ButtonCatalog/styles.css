@@ -38,3 +38,13 @@
       margin-left: 10px;
    }
 }
+
+@media (min-width: 768px) {
+   .button-container {
+      justify-content: flex-start;
+   }
+
+   .button-container button {
+      margin-left: 85px;
+   }
+}
