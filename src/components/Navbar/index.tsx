@@ -5,7 +5,6 @@ function Navbar() {
    return (
       <nav className="navbar navbar-expand-md navbar-light bg-primary navbar-container">
          <div className="container-fluid">
-            
             {/* Logo */}
             <a href="link" className="navbar-logo-text">
                <h4>Carros Top</h4>
