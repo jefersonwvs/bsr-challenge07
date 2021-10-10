@@ -1,0 +1,9 @@
+.catalog-container {
+   padding: 10px;
+   background-color: #e5e5e5;
+   text-align: center;
+}
+
+.container, .my-4 {
+   padding: 0px;
+}

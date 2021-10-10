@@ -109,10 +109,9 @@
    }
 
    .home-container-top {
-      width: 980px;
       height: 365px;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-evenly;
    }
 
    .home-container-top-content {

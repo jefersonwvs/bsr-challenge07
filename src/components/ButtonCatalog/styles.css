@@ -6,14 +6,19 @@
    justify-content: center;
 }
 
-.button-container button {
+.btn-explore {
    width: 175px;
    height: 40px;
    background-color: #00285f;
    border-radius: 5px;
+   border-style: none;
 }
 
-.button-container button h6 {
+.btn-explore:hover {
+   background-color: rgba(0, 40, 95, 0.75);
+}
+
+.btn-explore h6 {
    font-size: 14px;
    text-transform: uppercase;
    color: #ffffff;
@@ -24,6 +29,7 @@
    margin-bottom: 0px;
    color: #585858;
    font-size: 18px;
+   vertical-align: middle;
 }
 
 @media (min-width: 576px) {
@@ -46,5 +52,17 @@
 
    .button-container button {
       margin-left: 85px;
+   }
+
+   .button-container p {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 10px;
+
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
    }
 }
