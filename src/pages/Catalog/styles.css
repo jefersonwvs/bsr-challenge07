@@ -1,9 +1,31 @@
-.catalog-container {
-   padding: 10px;
-   background-color: #e5e5e5;
-   text-align: center;
+.catalog-root {
+   display: flex;
+   justify-content: space-around;
 }
 
-.container, .my-4 {
-   padding: 0px;
+.catalog-container {
+   width: 100%;
+   text-align: center;
+   margin: 0px;
+   padding: 20px 10px;
+}
+
+.product-card {
+   padding: 0px 10px;
+}
+
+@media (min-width: 576px) {
+   .catalog-container {
+      padding: 30px 20px;
+   }
+
+   .catalog-search-bar {
+      padding-bottom: 10px;
+   }
+}
+
+@media (min-width: 1020px) {
+   .catalog-container {
+      width: 1020px;
+   }
 }

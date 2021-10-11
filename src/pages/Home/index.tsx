@@ -1,7 +1,7 @@
 import './styles.css';
 import CarImage from '../../assets/images/car.png';
 import ButtonCatalog from '../../components/ButtonCatalog';
-
+import { Link } from 'react-router-dom';
 
 const Home = () => {
    return (
@@ -19,7 +19,9 @@ const Home = () => {
             </div>
          </div>
          <div className="home-container-bottom">
-            <ButtonCatalog />
+            <Link to="/products">
+               <ButtonCatalog />
+            </Link>
          </div>
       </div>
    );
