@@ -4,11 +4,9 @@ import Product from '../../components/Product';
 
 const Catalog = () => {
    return (
-      <div className="catalog-root">
+      <div className="catalog">
          <div className="catalog-container">
-            <div className="catalog-search-bar">
-               <Search />
-            </div>
+            <Search />
             <div className="my-4">
                <div className="row">
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 product-card">

@@ -1,11 +1,17 @@
+.home {
+   display: flex;
+   justify-content: space-around;
+}
+
 .home-container {
+   width: 100%;
    padding: 10px;
    background-color: #e5e5e5;
    font-size: 22px;
    text-align: center;
 }
 
-.home-container-top {
+.presentation-card {
    display: flex;
    flex-direction: column-reverse;
    border-radius: 10px;
@@ -14,35 +20,35 @@
    color: #ffffff;
 }
 
-.home-container-top-content {
+.presentation-card-content {
    display: flex;
    align-items: center;
    flex-direction: column;
    padding-bottom: 45px;
 }
 
-.home-container-top-content h4 {
+.presentation-card-content h4 {
    width: 260px;
    font-size: 1em;
    margin-bottom: 10px;
 }
 
-.home-container-top-content p {
+.presentation-card-content p {
    margin-bottom: 0px;
    width: 260px;
    font-size: 0.65em;
 }
 
-.home-container-top-image {
+.presentation-card-image {
    padding: 60px 25px 35px 25px;
 }
 
-.home-container-top-image img {
+.presentation-card-image img {
    width: 244px;
    height: 146px;
 }
 
-.home-container-bottom {
+.explorer-card {
    background-color: #ededed;
    margin-top: 20px;
    border-radius: 10px;
@@ -56,65 +62,65 @@
       font-size: 36px;
    }
 
-   .home-container-top-image {
+   .presentation-card-image {
       padding: 20px 100px 20px 100px;
    }
 
-   .home-container-top-image img {
+   .presentation-card-image img {
       width: 333px;
       height: 199px;
    }
 
-   .home-container-top-content h4 {
+   .presentation-card-content h4 {
       width: 420px;
       margin-bottom: 0px;
    }
 
-   .home-container-top-content p {
+   .presentation-card-content p {
       width: 420px;
       font-size: 18px;
    }
 }
 
 @media (min-width: 768px) {
-   .home-container-top-content {
+   .presentation-card-content {
       padding-bottom: 70px;
    }
 
-   .home-container-top-image {
+   .presentation-card-image {
       padding: 80px 190px 35px 190px;
    }
 }
 
 @media (min-width: 992px) {
-   .home-container-top-content {
+   .presentation-card-content {
       padding-bottom: 120px;
    }
 
-   .home-container-top-image {
+   .presentation-card-image {
       padding: 80px 250px 35px 250px;
    }
 
-   .home-container-top-image img {
+   .presentation-card-image img {
       width: 455px;
       height: 272px;
    }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1020px) {
    .home-container {
-      padding-left: 150px;
-      padding-right: 150px;
-      justify-content: space-between;
+      width: 1020px;
    }
+}
 
-   .home-container-top {
+@media (min-width: 1280px) {
+   .presentation-card {
       height: 365px;
       flex-direction: row;
       justify-content: space-evenly;
    }
 
-   .home-container-top-content {
+   .presentation-card-content {
       align-items: center;
       padding-top: 130px;
       padding-bottom: 130px;
@@ -122,14 +128,11 @@
       text-align: left;
    }
 
-   .home-container-top-image {
-      padding-top: 80px;
-      padding-right: 50px;
-      padding-bottom: 80px;
-      padding-left: 50px;
+   .presentation-card-image {
+      padding: 80px 50px;
    }
 
-   .home-container-top-image img {
+   .presentation-card-image img {
       width: 333px;
       height: 199px;
    }
