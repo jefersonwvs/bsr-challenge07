@@ -1,33 +1,33 @@
 .navbar-container {
-   min-height: 70px;
-   padding-left: 8px;
-   padding-right: 8px;
+  min-height: 70px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .navbar-logo-text,
 .navbar-logo-text:hover {
-   width: 40%;
-   color: #00285f;
+  width: 40%;
+  color: #00285f;
 }
 
 .navbar-menu {
-   display: flex;
-   font-size: 18px;
-   width: 50%;
-   justify-content: space-around;
+  display: flex;
+  font-size: 18px;
+  width: 50%;
+  justify-content: space-around;
 }
 
 .navbar-menu a:hover {
-   color: #00285f;
+  color: #00285f;
 }
 
 .navbar-menu a.active {
-   color: #00285f;
-   font-weight: 700;
+  color: #00285f;
+  font-weight: 700;
 }
 
 @media (min-width: 576px) {
-   .navbar-container {
-      padding-left: 70px;
-   }
+  .navbar-container {
+    padding-left: 70px;
+  }
 }

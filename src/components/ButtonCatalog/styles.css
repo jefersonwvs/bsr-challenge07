@@ -1,62 +1,62 @@
 .button-container {
-   display: flex;
-   flex-direction: column;
-   padding-top: 25px;
-   padding-bottom: 20px;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-explore {
-   width: 175px;
-   height: 40px;
-   background-color: #00285f;
-   border-radius: 5px;
-   border-style: none;
+  width: 175px;
+  height: 40px;
+  background-color: #00285f;
+  border-radius: 5px;
+  border-style: none;
 }
 
 .btn-explore:hover {
-   background-color: rgba(0, 40, 95, 0.75);
+  background-color: rgba(0, 40, 95, 0.75);
 }
 
 .btn-explore h6 {
-   font-size: 14px;
-   text-transform: uppercase;
-   color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .button-container p {
-   margin-top: 5px;
-   margin-bottom: 0px;
-   color: #585858;
-   font-size: 18px;
-   vertical-align: middle;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #585858;
+  font-size: 18px;
+  vertical-align: middle;
 }
 
 @media (min-width: 576px) {
-   .button-container {
-      padding-top: 40px;
-      padding-bottom: 40px;
-      flex-direction: row;
-   }
+  .button-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: row;
+  }
 
-   .button-container p {
-      margin-top: 0px;
-      margin-left: 10px;
-   }
+  .button-container p {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
 }
 
 @media (min-width: 768px) {
-   .button-container {
-      justify-content: flex-start;
-   }
+  .button-container {
+    justify-content: flex-start;
+  }
 
-   .button-container button {
-      margin-left: 85px;
-   }
+  .button-container button {
+    margin-left: 85px;
+  }
 
-   .button-container p {
-      margin: 0px 0px 0px 10px;
-      padding: 0px;
-   }
+  .button-container p {
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+  }
 }

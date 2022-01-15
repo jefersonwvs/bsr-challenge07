@@ -1,31 +1,31 @@
 .catalog {
-   display: flex;
-   justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .catalog-container {
-   width: 100%;
-   text-align: center;
-   margin: 0px;
-   padding: 20px 10px;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  padding: 20px 10px;
 }
 
 .product-card {
-   padding: 0px 10px;
+  padding: 0px 10px;
 }
 
 @media (min-width: 576px) {
-   .catalog-container {
-      padding: 30px 20px;
-   }
+  .catalog-container {
+    padding: 30px 20px;
+  }
 
-   .catalog-search-bar {
-      padding-bottom: 10px;
-   }
+  .catalog-search-bar {
+    padding-bottom: 10px;
+  }
 }
 
 @media (min-width: 1020px) {
-   .catalog-container {
-      width: 1020px;
-   }
+  .catalog-container {
+    width: 1020px;
+  }
 }
